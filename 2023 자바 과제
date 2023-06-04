@@ -58,12 +58,10 @@ public class CalculatorUI extends JFrame implements ActionListener {
         clearAllButton.setFont(new Font("Arial", Font.PLAIN, 20));
         mainPanel.add(clearAllButton);
 
-        mainPanel.setPreferredSize(new Dimension(550, 570));
+        mainPanel.setPreferredSize(new Dimension(530, 570));
         add(mainPanel);
         pack();
     }
-
-    // ... 나머지 코드는 이전과 동일 ...
     public void actionPerformed(ActionEvent e) {
         String command = e.getActionCommand();
 
